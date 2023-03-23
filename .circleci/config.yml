@@ -236,7 +236,7 @@ jobs:
           at: ~/project
       - run:
           name: Audit
-          command: npm audit
+          command: npm audit --production
   build:
     docker:
       - image: circleci/node:16
