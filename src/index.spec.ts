@@ -1,3 +1,3 @@
-describe('Client API', () => {
+describe('@techjs/hello', () => {
   it('should...');
 });
