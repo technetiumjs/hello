@@ -43,7 +43,7 @@ workflows:
       - build:
           name: "Build"
           skip: false
-          target: "lib"
+          target: "dist"
           requires:
             - "Unit Test"
             - "E2E Test"
