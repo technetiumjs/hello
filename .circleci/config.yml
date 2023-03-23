@@ -22,7 +22,7 @@ workflows:
             - "Environment"
       - test:
           name: "Unit Test"
-          skip: true
+          skip: false
           requires:
             - "Dependencies"
       - e2e:
@@ -37,7 +37,7 @@ workflows:
             - "Dependencies"
       - audit:
           name: "Audit"
-          skip: true
+          skip: false
           requires:
             - "Dependencies"
       - build:
